@@ -85,11 +85,9 @@ def decrypt_file(input_file, output_file, password):
         if "InvalidTag" in str(e):
             print("Password salah atau file telah dimodifikasi!")
         else:
-            print(f" Error bangsat: {e}")
+            print(f" Error di enkrip: {e}")
 
-# ======================
 # CLI
-# ======================
 def main():
     parser = argparse.ArgumentParser(description="AES-256-GCM File Encryptor")
     parser.add_argument("mode", choices=["encrypt", "decrypt"])
