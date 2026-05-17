@@ -1,0 +1,14 @@
+{
+  "dibuat": "2026-05-17T11:40:21.442051Z",
+  "kunci": "alice",
+  "total_file": 1,
+  "file": [
+    {
+      "file": "doc.pdf",
+      "hash_algo": "SHA-256",
+      "hash": "39b05c3dfba5e197c4f75dc1bafe84ed5b6b2f0508f897cb942b97cbe664828e",
+      "signature": "Yemwa/NJekvXso1O7h4nQHdJHXk1AyrJiMvBB7nhBco8URQdlPdtAQYP/THVZU10U/vaNBlk21CqEK2qD6/5BQ==",
+      "algoritma": "Ed25519"
+    }
+  ]
+}
